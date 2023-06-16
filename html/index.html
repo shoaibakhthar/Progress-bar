@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progress_Bar</title>
+    <title>Task_Manager</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <div id="inputTask" >
+        <div>
+            <input id="newTask" type="text" placeholder="Input the task" value=""> 
+            <button id="add-btn" onclick="createTask();">Add</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="open">
+            <h1>OPEN</h1>
+        </div>
+        <div id="inProgress">
+            <h1>IN PROGRESS</h1>
+        </div>
+        <div id="inReview">
+            <h1>IN REVIEW</h1>
+        </div>
+        <div id="done">
+            <h1>DONE</h1>
+        </div>
+    </div>
+
     
+
+<script src="../progress_bar.js"></script>
 </body>
 </html>
